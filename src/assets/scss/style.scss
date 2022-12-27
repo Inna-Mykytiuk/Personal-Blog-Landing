@@ -1,5 +1,36 @@
-body {
-    background-color: black;
-    font-size: 21px;
-    color: white;
+@import "vars";
+@import "vendor/reset";
+
+html {
+    font-size: 62.5%;
 }
+
+body {
+    background-color: #181818;
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.4rem;
+    color: $white;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+/* Blocks */
+@import "blocks/page";
+@import "blocks/header";
+@import "blocks/sidebar";
+@import "blocks/main";
+@import "blocks/container";
+
+
+
+
+
+
+
+
