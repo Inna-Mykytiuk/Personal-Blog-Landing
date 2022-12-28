@@ -374,6 +374,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1.4rem;
     color: #fff;
+    line-height: 1.5;
 }
 
 /* Blocks */
@@ -402,6 +403,10 @@ body {
     z-index: 1000;
 }
 
+.sidebar__content {
+    padding: 0 2rem;
+}
+
 .sidebar__header {
     height: 180px;
     color: #121212;
@@ -425,4 +430,96 @@ body {
     margin: 0 auto;
     padding-left: 5rem;
     padding-right: 5rem;
+}
+
+.profile__avatar {
+    display: block;
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.25);
+    margin: 0 auto 2rem;
+}
+
+.profile__name {
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.profile__proff {
+    font-size: 1.4rem;
+    text-align: center;
+    color: #DEDEDE;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 17px;
+}
+
+.profile__text {
+    font-size: 1.2rem;
+    text-align: center;
+    border-top: 1px solid #1C1C1C;
+    border-bottom: 1px solid #1C1C1C;
+    padding: 3rem 0;
+    margin: 3rem 0;
+}
+
+.social {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social__link {
+    color: #fff;
+}
+
+.social__link :hover {
+    color: aqua;
+}
+
+.social__icon {
+    fill: currentColor;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sidebar__footer {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.btn {
+    display: inline-block;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.1;
+    min-width: 12rem;
+    border: none;
+    cursor: pointer;
+    padding: 1.12em 2.1em;
+    color: #fff;
+    background: #121212;
+    box-shadow: 0px 7px 17px -10px rgba(242, 63, 63, 0.2);
+    border-radius: 25px;
+}
+
+.btn--red {
+    background-color: #ED3024;
+}
+
+.btn--blue {
+    background-color: #3137C9;
 }

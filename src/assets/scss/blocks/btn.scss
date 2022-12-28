@@ -23,14 +23,17 @@
 
   color: $white;
   background: $secondary;
+  
+}
+
+.btn--red {
+  background-color: #ED3024;
   box-shadow: 0px 7px 17px -10px rgba(242, 63, 63, 0.2);
   border-radius: 25px;
 }
 
-.btn--red {
-  background-color: #ED3024;;
-}
-
 .btn--blue {
-  background-color: #3137C9;;
+  background-color: #3137C9;
+  box-shadow: 0px 7px 17px -10px rgba(32, 84, 219, 0.35);
+  border-radius: 25px;
 }
