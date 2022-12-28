@@ -1,0 +1,36 @@
+.sidebar__footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  // margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.1;
+  min-width: 12rem;
+
+  border: none;
+  cursor: pointer;
+  padding: 1.12em 2.1em;
+
+  color: $white;
+  background: $secondary;
+  box-shadow: 0px 7px 17px -10px rgba(242, 63, 63, 0.2);
+  border-radius: 25px;
+}
+
+.btn--red {
+  background-color: #ED3024;;
+}
+
+.btn--blue {
+  background-color: #3137C9;;
+}
