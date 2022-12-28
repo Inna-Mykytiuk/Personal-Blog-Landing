@@ -23,17 +23,31 @@
 
   color: $white;
   background: $secondary;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 
 .btn--red {
-  background-color: #ED3024;
+  background-color: $red;
   box-shadow: 0px 7px 17px -10px rgba(242, 63, 63, 0.2);
   border-radius: 25px;
+  &:hover {
+    background-color: darken($red, 5%);
+  }
+  &:focus {
+    background-color: darken($red, 5%);
+  }
 }
 
 .btn--blue {
-  background-color: #3137C9;
+  background-color: $blue;
   box-shadow: 0px 7px 17px -10px rgba(32, 84, 219, 0.35);
   border-radius: 25px;
+  &:hover {
+    background-color: darken($blue, 5%);
+  }
+  &:focus {
+    background-color: darken($blue, 5%);
+  }
 }
