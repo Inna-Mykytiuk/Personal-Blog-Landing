@@ -8,16 +8,16 @@
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    background-color: #181818;
+  background-color: #181818;
 
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 1.4rem;
-    color: $white;
-    line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.4rem;
+  color: $white;
+  line-height: 1.5;
 }
 
 a {
@@ -25,6 +25,12 @@ a {
   font-style: inherit;
   cursor: pointer;
 }
+
+// img {
+//   display: block;
+//   max-width: 100%;
+//   height: auto;
+// }
 
 
 /* Blocks */
@@ -41,6 +47,9 @@ a {
 @import "blocks/btn.scss";
 @import "blocks/stories.scss";
 @import "blocks/addpost.scss";
+@import "blocks/post.scss";
+@import "blocks/embed.scss";
+@import "blocks/pagination.scss";
 
 
 
