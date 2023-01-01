@@ -370,6 +370,10 @@ a:hover, a:focus {
 
 /* Blocks */
 .page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
   overflow: hidden;
 }
 
