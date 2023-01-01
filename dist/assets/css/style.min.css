@@ -380,6 +380,10 @@ a:hover, a:focus {
   margin-bottom: 3rem;
 }
 
+.page__title--center {
+  text-align: center;
+}
+
 .header {
   display: flex;
   width: calc(100% - 300px);
@@ -1079,6 +1083,11 @@ a:hover, a:focus {
   text-decoration: underline;
 }
 
+.form--auth {
+  max-width: 28rem;
+  margin: 0 auto;
+}
+
 .form__group {
   margin-bottom: 1.5rem;
   position: relative;
@@ -1121,6 +1130,22 @@ a:hover, a:focus {
   height: 1px;
   background-color: #3137C9;
   transition: width 700ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form__footer--center {
+  text-align: center;
+}
+
+.form__footer-list {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+.form__footer-list a {
+  color: inherit;
 }
 
 .work {
