@@ -609,12 +609,12 @@ a:hover, a:focus {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 1.2rem;
-  line-height: 1.1;
+  font-size: 1.5rem;
+  line-height: 1.2;
   min-width: 12rem;
   border: none;
   cursor: pointer;
-  padding: 1.12em 2.1em;
+  padding: 0.8em 2em;
   color: #fff;
   background: #121212;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -652,7 +652,7 @@ a:hover, a:focus {
 }
 
 .btn--sm {
-  padding: 0.66em 1.25em;
+  padding: 0.5em 1.25em;
 }
 
 .stories {
@@ -1083,12 +1083,15 @@ a:hover, a:focus {
   margin-bottom: 1.5rem;
   position: relative;
 }
+.form__group--md {
+  margin-bottom: 2.5rem;
+}
 
 .form__control {
   display: block;
   width: 100%;
   background-color: transparent;
-  padding: 0.5rem 0;
+  padding: 0.5rem 0 0.75rem;
   border: none;
   border-radius: 0;
   border-bottom: 1px solid #3F3F3F;
@@ -1185,4 +1188,69 @@ a:hover, a:focus {
   padding: 0.4rem 0.9rem;
   background-color: #EA8C1E;
   border-radius: 3px;
+}
+
+.profile__avatar {
+  position: relative;
+  display: block;
+  height: 10rem;
+  width: 10rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.25);
+  margin: 0 auto 2rem;
+}
+
+.profile__name {
+  font-size: 1.8rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.profile__proff {
+  font-size: 1.4rem;
+  text-align: center;
+  color: #DEDEDE;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 17px;
+}
+
+.profile__text {
+  font-size: 1.2rem;
+  text-align: center;
+  border-top: 1px solid #1C1C1C;
+  border-bottom: 1px solid #1C1C1C;
+  padding: 3rem 0;
+  margin: 3rem 0;
+}
+
+.cabinet {
+  display: flex;
+}
+
+.cabinet__form {
+  width: 34rem;
+}
+
+.cabinet__avatar {
+  flex-grow: 1;
+  padding-left: 11rem;
+}
+.cabinet__avatar img {
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.cabinet__file {
+  font-size: 1.4rem;
+  color: #3137C9;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.cabinet__file input {
+  display: none;
+}
+.cabinet__file:hover, .cabinet__file:focus {
+  text-decoration: none;
 }
