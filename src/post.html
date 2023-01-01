@@ -5,7 +5,7 @@ title: Post
 
 <article class="post">
   <div class="post__actions">
-    <a href="#">come back</a>
+    <a href="index.html">come back</a>
     <a href="#">share<img class="post__actions-icon" src="../assets/images/share.svg" alt="">
     </a>
   </div>
@@ -20,7 +20,7 @@ title: Post
       </li>
     </ul>
   </div>
-  <div class="post__content">
+  < class="post__content">
     <div class="post__text">
       <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
@@ -32,8 +32,82 @@ title: Post
       <img class="post__preview" src="../assets/images/image.jpg" alt="image">
     </p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.</p>
-    </div>
-    
-  </div>
+    </div> 
 
+<!-- Relaited -->
+    <div class="relaited">
+      <h3 class="post__subtitle">Interesting to read</h3>
+      <ul class="relaited__list">
+        <li class="relaited__list-item">
+          <a href="#">
+            <h4 class="relaited__list-title">How I went to FrontEnd Conf 2021</h4>
+          </a>
+          <time class="relaited__list-date" datetime="2020-06-21 19:05">21.06.2020</time>
+          
+        </li>
+        <li class="relaited__list-item">
+          <a href="#">
+            <h4 class="relaited__list-title">How to write code quickly and...</h4>
+          </a>
+          <time class="relaited__list-date" datetime="2020-06-21 19:05">21.06.2020</time>
+          
+        </li>
+        <li class="relaited__list-item">
+          <a href="#">
+            <h4 class="relaited__list-title">I bought a new laptop</h4>
+          </a>
+          <time class="relaited__list-date" datetime="2020-06-21 19:05">21.06.2020</time>
+          
+        </li>
+        <li class="relaited__list-item">
+          <a href="#">
+            <h4 class="relaited__list-title">My story is how I found my way</h4>
+          </a>
+          <time class="relaited__list-date" datetime="2020-06-21 19:05">21.06.2020</time>          
+        </li>
+      </ul>      
+    </div> 
+    
+<!-- Comments -->
+    
+      <h3 class="post__subtitle">Discussion</h3>
+      <form class="form" action="/" method="post">
+        <div class="form__group">
+          <textarea class="form__control form__control--textarea" name="comment-text" id="" placeholder="Comment text"></textarea>
+          <span class="form__line"></span>
+        </div>
+        
+        <button class="btn btn--blue btn--rounded btn--sm" type="submit">Send</button>
+      </form>
+      <ul class="comments">
+        <li class="comments__item">
+          <div class="comments__header">
+            <img class="comments__avatar" src="https://via.placeholder.com/30" alt="">
+            <div class="comments__author">
+              <div class="comments__name">Inna Mykytiuk</div>
+              <time time class="comments__pubdate" datetime="2020-06-21 19:05">One week ago</time>
+            </div>            
+          </div>
+          <div class="comments__text">Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+          </div>
+          <button class="comments__reply" type="button">Reply</button>
+          <ul class="comments">
+        <li class="comments__item">
+          <div class="comments__header">
+            <img class="comments__avatar" src="https://via.placeholder.com/30" alt="">
+            <div class="comments__author">
+              <div class="comments__name">Inna Mykytiuk</div>
+              <time time class="comments__pubdate" datetime="2020-06-21 19:05">One week ago</time>
+            </div>            
+          </div>
+          <div class="comments__text">Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+          </div>
+          <button class="comments__reply" type="button">Reply</button>
+        </li>
+      </ul>
+        </li>
+      </ul>
+
+  </div>
 </article>
+

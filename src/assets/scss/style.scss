@@ -24,6 +24,11 @@ a {
   text-decoration: none;
   font-style: inherit;
   cursor: pointer;
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+
 }
 
 // img {
@@ -50,6 +55,9 @@ a {
 @import "blocks/post.scss";
 @import "blocks/embed.scss";
 @import "blocks/pagination.scss";
+@import "blocks/relaited.scss";
+@import "blocks/comments.scss";
+@import "blocks/form.scss";
 
 
 
