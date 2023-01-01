@@ -1,0 +1,17 @@
+.tags {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.tags__item {
+  font-size: 1.1rem;
+  color: $white;
+  text-align: center;
+  padding: 0.4rem 0.9rem;
+
+  background-color: #EA8C1E;
+  border-radius: 3px;
+}
