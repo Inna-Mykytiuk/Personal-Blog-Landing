@@ -593,11 +593,19 @@ a:hover, a:focus {
   justify-content: center;
   gap: 15px;
 }
+.social--modal {
+  gap: 20px;
+}
 
 .social__link {
   color: #fff;
 }
-.social__link :hover {
+.social__link--modal {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+}
+.social__link:hover, .social__link:focus {
   color: #3137C9;
 }
 
@@ -1302,13 +1310,16 @@ a:hover, a:focus {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.modal-content {
+.modal__content {
   position: relative;
   width: 100%;
   max-width: 50rem;
-  padding: 8rem 8rem 2rem;
+  padding: 8rem;
   background-color: #202020;
   border-radius: 5px;
+}
+.modal__content--contact {
+  padding-bottom: 2.5rem;
 }
 
 .modal__close {

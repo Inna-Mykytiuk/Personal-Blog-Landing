@@ -15,14 +15,17 @@
   background-color: rgba($black, 0.8);
 }
 
-.modal-content {
+.modal__content {
   position: relative;
   width: 100%;
   max-width: 50rem;
-  padding: 8rem 8rem 2rem;
+  padding: 8rem;
 
   background-color: $primary;
   border-radius: 5px;
+  &--contact {
+    padding-bottom: 2.5rem;
+  }
 }
 
 .modal__close {
