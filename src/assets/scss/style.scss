@@ -18,6 +18,10 @@ body {
   font-size: 1.4rem;
   color: $white;
   line-height: 1.5;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
 }
 
 a {
@@ -62,6 +66,7 @@ a {
 @import "blocks/tags.scss";
 @import "blocks/profile.scss";
 @import "blocks/cabinet.scss";
+@import "blocks/modal.scss";
 
 
 
