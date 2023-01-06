@@ -3,13 +3,14 @@
   border-bottom: 1px solid #1C1C1C;
 }
 
-.relaited__list-item {
-  margin-bottom: 2.5rem;
-}
 
 .relaited__list {
   display: flex;
   flex-wrap: wrap;
+
+  @include breakpoint ($mobile) {
+    flex-direction: column;
+  }
 }
 
 .relaited__list-item {
@@ -20,6 +21,9 @@
   white-space: nowrap;
   a {
     color: inherit;
+  }
+  @include breakpoint ($mobile) {
+    width: 100%;
   }
 }
 

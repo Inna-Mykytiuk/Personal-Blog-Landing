@@ -1,12 +1,19 @@
 .nav {
+  &--mobile {
+    display: none;
+    margin: 3rem 0;
+  }
   @include breakpoint ($tablet) {
     display: none;
-  }
-  &--mobile {
+    &--mobile {
     display: block;
     margin: 3rem 0;
   }
+  }
+  
 }
+
+
 
 .nav__list {
   display: flex;

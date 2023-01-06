@@ -4,6 +4,9 @@
   background-color: $secondary;
   border-radius: 5px;
   padding: 1.5rem 2rem;
+  @include breakpoint ($mobile) {
+    padding: 1.5rem;
+  }
 }
 
 .add-post__form {
@@ -16,6 +19,10 @@
   justify-content: flex-end;
   width: 12rem;
   flex-shrink: 0;
+
+  @include breakpoint ($mobile) {
+    width: 9rem;
+  }
 }
 
 .add-post__textarea {
@@ -44,30 +51,42 @@
   background: #EBEBEB
   url(../images/add-photo.svg) center no-repeat;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  // &:hover,
-  // &:focus {
-  //   background: darken(#EBEBEB, 5%);
-  // }
+  &:hover,
+  &:focus {
+    background-color: darken(#EBEBEB, 5%);
+  }
   input {
     display: none;
   }
-  
-  
+
+  @include breakpoint ($mobile) {
+    width: 3.4rem;
+    height: 3.4rem;
+    background-size: 1.5rem 1.5rem;
+  }  
 }
 
 .add-post__send {
   display: block;
   cursor: pointer;
   border: none;
+  font-size: 0;
+  color: transparent;
   margin-left: 1.5rem;
   width: 4.4rem;
   height: 4.4rem;
   border-radius: 50%;
   background-color: $blue;
+  background: $blue url(../images/send.svg) center no-repeat;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
-    background: darken($blue, 5%);
+    background-color: darken($blue, 5%);
   }
-  
+
+  @include breakpoint ($mobile) {
+    width: 3.4rem;
+    height: 3.4rem;
+    background-size: 1.5rem 1.5rem;
+  }   
 }

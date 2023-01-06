@@ -4,6 +4,10 @@
   align-items: center;
   margin-top: 8rem;
   gap: 1rem;
+
+  @include breakpoint ($tablet) {
+    margin-top: 5rem;
+  }
 }
 
 // .pagination__item {
