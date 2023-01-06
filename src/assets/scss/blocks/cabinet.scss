@@ -3,7 +3,11 @@
 }
 
 .cabinet__form {
-  width: 34rem;  
+  width: 34rem; 
+  
+  @media  (max-width: $tablet) {
+
+  }
 }
 
 .cabinet__avatar {

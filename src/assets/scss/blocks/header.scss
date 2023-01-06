@@ -9,16 +9,27 @@
   top: 0;
   right: 0;
   z-index: $z-index-header;
+
+  @include breakpoint ($tablet) {
+    width: 100%;
+  }
+  
 }
 
 .header__left {
   width: 60%;
+  @include breakpoint ($tablet) {
+    width: 40%;
+  }
 }
 
 .header__right {
   display: flex;
   width: 40%;
   justify-content: flex-end;
+  @include breakpoint ($tablet) {
+    width: 60%;
+  }
 }
 
 

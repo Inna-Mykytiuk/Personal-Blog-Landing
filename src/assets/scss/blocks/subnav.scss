@@ -9,6 +9,15 @@
   border-radius: 0px 0px 5px 5px;
   box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
   padding: 0.5rem 0;
+
+  @include breakpoint ($tablet) {
+    position: static;
+    width: 100%;
+    padding-left: 1rem;
+
+    // box-shadow: none;
+    // background-color: transparent;
+  }
 }
 
 .subnav__link {
@@ -23,6 +32,12 @@
   &:focus {
     background-color: darken($blue, 5%);
     text-decoration: none;
+  }
+
+  @include breakpoint ($tablet) {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 1.5rem;
   }
 
 }

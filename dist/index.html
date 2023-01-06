@@ -14,7 +14,7 @@
     
     <title>Home</title>
 </head>
-<body class="no-scroll">
+<body class="show-sidebar">
 
     <div class="page">
     <!-- Header -->
@@ -42,6 +42,10 @@
             </li>
           </ul>      
         </nav>
+    
+        <button class="burger" type="button">
+          <span>open</span>
+        </button>
       </div>
     
       <div class="header__right">
@@ -70,9 +74,13 @@
       </div>
       <div class="sidebar__content">
         <div class="profile">
+          
           <img src="https://via.placeholder.com/100" alt="" class="profile__avatar">
-          <div class="profile__name">Inna Mykytiuk</div>
-          <div class="profile__proff">front-end developer</div>
+          <div class="profile__header">
+            <div class="profile__name">Inna Mykytiuk</div>
+            <div class="profile__proff">front-end developer</div>
+          </div>
+    
     <!-- Social list -->
           <ul class="social">
             <li class="social__item">
@@ -102,6 +110,29 @@
             <p>Front end developer. Website development practice. I have been creating websites since 2022.</p>
           </div>
         </div>
+              
+    <!-- Mobile-nav -->
+    <nav class="nav nav--mobile">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="index.html" class="nav__link">Home</a>
+        </li>
+        <li class="nav__item">
+          <a href="" class="nav__link has-subnav">Articles</a>
+          <ul class="subnav">
+            <li class="subnav__link">Website development</li>
+            <li class="subnav__link">Internet Marketing</li>
+            <li class="subnav__link">Video promotion</li>
+          </ul>
+        </li>
+        <li class="nav__item">
+          <a href="text.html" class="nav__link">About me</a>
+        </li>
+        <li class="nav__item">
+          <a href="" class="nav__link">Advertising</a>
+        </li>
+      </ul>      
+    </nav>
       </div>
     <!-- Sidebar-footer -->
       <div class="sidebar__footer">

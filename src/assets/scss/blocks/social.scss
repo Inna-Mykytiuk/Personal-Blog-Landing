@@ -6,6 +6,9 @@
   &--modal {
     gap: 20px;
   }
+  @include breakpoint ($tablet) {
+    display: none;
+  }
 }
 
 .social__link {

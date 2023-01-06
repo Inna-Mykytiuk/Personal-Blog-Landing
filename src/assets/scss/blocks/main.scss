@@ -1,5 +1,8 @@
 .main {
   padding: 10rem 0 8rem $sidebar-width;
+  @include breakpoint ($tablet) {
+    padding-left: 0;
+  }
 }
 
 

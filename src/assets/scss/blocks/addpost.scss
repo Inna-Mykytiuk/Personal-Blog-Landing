@@ -14,17 +14,19 @@
 .add-post__form-actions {
   display: flex;
   justify-content: flex-end;
-  width: 25%;
+  width: 12rem;
+  flex-shrink: 0;
 }
 
 .add-post__textarea {
   font-family: inherit;
-  width: 75%;
+  flex-grow: 1;
   height: 25px;
 
   border: none;
   background: transparent;
   resize: none;
+  overflow: hidden;
 
   font-size: 1.5rem;
   &::placeholder {
