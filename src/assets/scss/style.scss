@@ -5,7 +5,7 @@
 *,
 *:before,
 *:after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -15,7 +15,9 @@ html {
 body {
   background-color: #181818;
 
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.4rem;
   color: $white;
   line-height: 1.5;
@@ -30,11 +32,10 @@ a {
   text-decoration: none;
   font-style: inherit;
   cursor: pointer;
-    &:hover,
-    &:focus {
-      text-decoration: underline;
-    }
-
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
 }
 
 // img {
@@ -42,7 +43,6 @@ a {
 //   max-width: 100%;
 //   height: auto;
 // }
-
 
 /* Blocks */
 @import "blocks/page";
@@ -70,11 +70,3 @@ a {
 @import "blocks/cabinet.scss";
 @import "blocks/modal.scss";
 @import "blocks/burger.scss";
-
-
-
-
-
-
-
-

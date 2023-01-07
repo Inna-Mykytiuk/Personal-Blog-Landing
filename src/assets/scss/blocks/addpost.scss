@@ -11,7 +11,7 @@
 
 .add-post__form {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .add-post__form-actions {
@@ -28,12 +28,13 @@
 .add-post__textarea {
   font-family: inherit;
   flex-grow: 1;
-  height: 25px;
+  height: 34px;
 
   border: none;
   background: transparent;
   resize: none;
   overflow: hidden;
+  color: $white;
 
   font-size: 1.5rem;
   &::placeholder {

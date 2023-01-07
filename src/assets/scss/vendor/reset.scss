@@ -63,12 +63,11 @@ input[type=search]::-webkit-search-decoration,
 input[type=search]::-webkit-search-results-button,
 input[type=search]::-webkit-search-results-decoration {
     -webkit-appearance: none;
-    -moz-appearance: none;
+
 }
 
 input[type=search] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
+
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
@@ -244,7 +243,6 @@ button,
 html input[type="button"], /* 1 */
 input[type="reset"],
 input[type="submit"] {
-    -webkit-appearance: button; /* 2 */
     cursor: pointer; /* 3 */
     *overflow: visible;  /* 4 */
 }
@@ -280,7 +278,6 @@ input[type="radio"] {
  */
 
 input[type="search"] {
-    -webkit-appearance: textfield; /* 1 */
     -moz-box-sizing: content-box;
     -webkit-box-sizing: content-box; /* 2 */
     box-sizing: content-box;
@@ -307,7 +304,7 @@ input::-moz-focus-inner {
 }
 
 /**
- * 1. Remove default vertical scrollbar in IE 6/7/8/9.
+ * 1. Remove default vertical яbar in IE 6/7/8/9.
  * 2. Improve readability and alignment in all browsers.
  */
 
