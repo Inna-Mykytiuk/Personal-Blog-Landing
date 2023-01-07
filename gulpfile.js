@@ -1,5 +1,8 @@
 "use strict";
 
+
+
+
 const {src, dest} = require("gulp");
 const gulp = require("gulp");
 const autoprefixer = require("gulp-autoprefixer");
@@ -16,6 +19,12 @@ const notify = require("gulp-notify");
 const webpack = require('webpack');
 const webpackStream = require('webpack-stream');
 const browserSync = require("browser-sync").create();
+
+var ghPages = require("gulp-gh-pages");
+
+gulp.task("deploy", function () {
+  return gulp.src("./dist/**/*").pipe(ghPages());
+});
 
 
 /* Paths */
