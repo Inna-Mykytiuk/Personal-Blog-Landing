@@ -23,6 +23,10 @@ gulp.task("deploy", function () {
   return gulp.src("./dist/**/*").pipe(ghPages());
 });
 
+// gulp.task("deploy", function () {
+//   return gulp.src("./build/**/*").pipe(ghPages());
+// });
+
 
 /* Paths */
 const srcPath = 'src/';

@@ -1,36 +1,45 @@
 {
-    "name": "brainscloud",
-    "version": "1.0.0",
-    "description": "brainscloud",
-    "author": "brainscloud",
-    "devDependencies": {
-        "@babel/core": "^7.16.0",
-        "@babel/preset-env": "^7.16.4",
-        "babel-core": "^6.26.3",
-        "babel-loader": "^8.2.3",
-        "babel-preset-env": "^1.7.0",
-        "browser-sync": "^2.27.7",
-        "del": "^6.0.0",
-        "gulp": "^4.0.2",
-        "gulp-autoprefixer": "^8.0.0",
-        "gulp-babel": "^8.0.0",
-        "gulp-cssbeautify": "^3.0.0",
-        "gulp-cssnano": "^2.1.3",
-        "gulp-gh-pages": "^0.5.4",
-        "gulp-notify": "^4.0.0",
-        "gulp-plumber": "^1.2.1",
-        "gulp-rename": "^2.0.0",
-        "gulp-sass": "^5.0.0",
-        "gulp-strip-css-comments": "^2.0.0",
-        "gulp-uglify": "^3.0.2",
-        "panini": "^1.7.2",
-        "sass": "^1.43.4",
-        "webpack": "^5.64.3",
-        "webpack-stream": "^7.0.0"
-    },
-    "browserslist": [
-        "last 1 version",
-        "> 1%",
-        "IE 10"
-    ]
+  "name": "br",
+  "version": "1.0.0",
+  "description": "Inna",
+  "homepage": "https://inna-mykytiuk.github.io/Personal-Blog-Landing",
+  "scripts": {
+    "start": "gulp src/*.html --open",
+    "build": "gulp build src/*.html --public-url /Personal-Blog-Landing/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inna-mykytiuk/Personal-Blog-Landing.git"
+  },
+  "author": "Inna",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.3",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.27.7",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-cssbeautify": "^3.0.0",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-strip-css-comments": "^2.0.0",
+    "gulp-uglify": "^3.0.2",
+    "panini": "^1.7.2",
+    "sass": "^1.43.4",
+    "webpack": "^5.64.3",
+    "webpack-stream": "^7.0.0"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 10"
+  ]
 }
