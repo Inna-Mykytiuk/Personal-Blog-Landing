@@ -2,7 +2,6 @@
   "name": "br",
   "version": "1.0.0",
   "description": "Inna",
-  "homepage": "https://github.com/inna-mykytiuk/Personal-Blog-Landing",
   "scripts": {
     "start": "gulp src/*.html --open",
     "build": "gulp build src/*.html --public-url /Personal-Blog-Landing/",
@@ -12,7 +11,13 @@
     "type": "git",
     "url": "git+https://github.com/inna-mykytiuk/Personal-Blog-Landing.git"
   },
+  "keywords": [],
   "author": "Inna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inna-mykytiuk/Personal-Blog-Landing/issues"
+  },
+  "homepage": "https://github.com/inna-mykytiuk/Personal-Blog-Landingt#readme",
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
