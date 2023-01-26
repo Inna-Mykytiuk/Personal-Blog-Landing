@@ -5,7 +5,8 @@
   "homepage": "https://inna-mykytiuk.github.io/Personal-Blog-Landing",
   "scripts": {
     "start": "gulp src/*.html --open",
-    "build": "gulp build src/*.html --public-url /Personal-Blog-Landing/"
+    "build": "gulp build src/*.html --public-url /Personal-Blog-Landing/",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
     "babel-preset-env": "^1.7.0",
     "browser-sync": "^2.27.7",
     "del": "^6.0.0",
+    "gh-pages": "^5.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-babel": "^8.0.0",

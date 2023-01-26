@@ -17,11 +17,11 @@ const webpack = require('webpack');
 const webpackStream = require('webpack-stream');
 const browserSync = require("browser-sync").create();
 
-var ghPages = require("gulp-gh-pages");
+// var ghPages = require("gulp-gh-pages");
 
-gulp.task("deploy", function () {
-  return gulp.src("./dist/**/*").pipe(ghPages());
-});
+// gulp.task("deploy", function () {
+//   return gulp.src("./dist/**/*").pipe(ghPages());
+// });
 
 
 
