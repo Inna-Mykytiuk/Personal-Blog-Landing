@@ -2,7 +2,7 @@
   "name": "br",
   "version": "1.0.0",
   "description": "Inna",
-  "homepage": "https://inna-mykytiuk.github.io/Personal-Blog-Landing",
+  "homepage": "https://github.com/inna-mykytiuk/Personal-Blog-Landing",
   "scripts": {
     "start": "gulp src/*.html --open",
     "build": "gulp build src/*.html --public-url /Personal-Blog-Landing/",
