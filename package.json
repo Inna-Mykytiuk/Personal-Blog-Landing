@@ -2,6 +2,7 @@
   "name": "br",
   "version": "1.0.0",
   "description": "Inna",
+  "homepage": "https://inna-mykytiuk.github.io/Personal-Blog-Landing/",
   "scripts": {
     "start": "gulp src/*.html --open",
     "build": "gulp build src/*.html --public-url /Personal-Blog-Landing/",
@@ -17,7 +18,6 @@
   "bugs": {
     "url": "https://github.com/inna-mykytiuk/Personal-Blog-Landing/issues"
   },
-  "homepage": "https://github.com/inna-mykytiuk/Personal-Blog-Landingt#readme",
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
@@ -43,10 +43,5 @@
     "sass": "^1.43.4",
     "webpack": "^5.64.3",
     "webpack-stream": "^7.0.0"
-  },
-  "browserslist": [
-    "last 1 version",
-    "> 1%",
-    "IE 10"
-  ]
+  }
 }
