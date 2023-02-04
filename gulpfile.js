@@ -23,6 +23,17 @@ const browserSync = require("browser-sync").create();
 //   return gulp.src("./dist/**/*").pipe(ghPages());
 // });
 
+// gulp.task("watch", function () {
+//   gulp.watch("./app/*.scss", gulp.series("sass"));
+//   gulp.watch("./app/js/**/*.js", gulp.series("js"));
+// });
+
+// gulp.task("watch", function () {
+//   gulp.watch("./scss/**/*.scss", gulp.series("sass"));
+// });
+
+// gulp.task("default", gulp.series("sass", "js", "watch"));
+
 
 
 /* Paths */

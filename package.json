@@ -5,7 +5,7 @@
   "homepage": "https://inna-mykytiuk.github.io/Personal-Blog-Landing/",
   "scripts": {
     "start": "gulp src/*.html --open",
-    "build": "gulp build src/*.html --public-url /Personal-Blog-Landing/",
+    "build": "gulp build --public-url /Personal-Blog-Landing/",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
